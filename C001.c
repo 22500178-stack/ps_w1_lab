@@ -19,29 +19,5 @@ int main() {
         printf("*\n");
     }
 
-    // 3. 중단 직사각형 부분 (size + 1 줄)
-    for (i = 0; i < size + 1; i++) {
-        for (j = 0; j < size * 2; j++) {
-            printf("*");
-        }
-        printf("\n");
-    }
 
-    // 4. 중단 역삼각형 부분 (size - 1 줄)
-    for (i = 1; i < size; i++) {
-        blank1 = i;
-        stars = (size - i) * 2;
-        
-        for (j = 0; j < blank1; j++) printf(" ");
-        for (j = 0; j < stars; j++) printf("*");
-        printf("\n");
-    }
-
-    // 5. 하단 받침대 부분
-    for (i = 0; i < size * 2; i++) {
-        printf("*");
-    }
-    printf("\n");
-
-    return 0;
 }
