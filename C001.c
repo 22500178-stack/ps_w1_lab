@@ -3,7 +3,7 @@
 int main() {
     int size;
     int stars, blank1, blank2;
-    int i, j;
+    int i, j;//sdfghj
 
     // 1. 크기 입력
     scanf("%d", &size);
