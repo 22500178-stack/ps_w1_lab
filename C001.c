@@ -18,3 +18,11 @@ int main() {
         for (j = 0; j < blank2; j++) printf(" ");
         printf("*\n");
     }
+
+    // 3. 중단 직사각형 부분 (size + 1 줄)
+    for (i = 0; i < size + 1; i++) {
+        for (j = 0; j < size * 2; j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
